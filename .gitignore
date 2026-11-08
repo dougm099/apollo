@@ -1,0 +1,22 @@
+# Secrets and local config - never commit these
+.env
+*.pem
+*.key
+
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.vst3
+*.component
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
